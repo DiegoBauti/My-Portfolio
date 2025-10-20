@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="assets/fonts/poppins/poppins.css" />
+    <link
+      rel="stylesheet"
+      href="assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/scroll.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <script src="assets/js/menu.js" defer></script>
+
+    <title>Portafolio - Diego Bautista</title>
+  </head>
+
+  <body>
+    <!--Layout principal-->
+    <div class="layout">
+      <!--Barra lateral-->
+      <aside class="layout__aside">
+        <section class="aside__user-info">
+          <!-- Información general del usuario -->
+          <div class="user-info__general">
+            <div class="user-info__container-imagen">
+              <img
+                src="assets/img/perfil_user.avif"
+                class="user-info__image"
+                alt="Foto de perfil"
+              />
+            </div>
+
+            <h2 class="user-info__name">Diego Bautista</h2>
+            <h4 class="user-info__job">Desarrollador Web</h4>
+          </div>
+
+          <!-- Menú de navegación -->
+          <nav class="layout__menu">
+            <ul class="menu__list">
+              <li class="menu__option">
+                <a href="index.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-house"></i>
+                  <span class="menu__overlay">Home</span>
+                </a>
+              </li>
+              <li class="menu__option">
+                <a href="sobre-mi.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-user"></i>
+                  <span class="menu__overlay">Sobre mi</span>
+                </a>
+              </li>
+              <li class="menu__option">
+                <a href="portafolio.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-briefcase"></i>
+                  <span class="menu__overlay">Portafolio</span>
+                </a>
+              </li>
+              <li class="menu__option">
+                <a href="curriculum.html" class="menu__link menu__link--active">
+                  <i class="menu__icon fa-solid fa-graduation-cap"></i>
+                  <span class="menu__overlay">Curriculum</span>
+                </a>
+              </li>
+              
+              <!-- <li class="menu__option">
+                <a href="blog.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-book"></i>
+                  <span class="menu__overlay">Blog</span>
+                </a>
+              </li> -->
+              <li class="menu__option">
+                <a href="contacto.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-envelope"></i>
+                  <span class="menu__overlay">Contacto</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+           <div class="user-info__links">
+                    <ul class="links__social">
+                        <li class="social__option">
+                            <a href="https://github.com/DiegoBauti" class="social__link" target="_blank" rel="noopener noreferrer">
+                                <i class="social__icon fa-brands fa-github"></i>
+                            </a>
+                        </li>
+                        <li class="social__option">
+                            <a href="https://www.linkedin.com/in/diegobautistal/" class="social__link" target="_blank" rel="noopener noreferrer">
+                                <i class="social__icon fa-brands fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li class="social__option">
+                            <a href="https://www.youtube.com/@DiegoBautistaml" class="social__link" target="_blank" rel="noopener noreferrer">
+                                <i class="social__icon fa-brands fa-youtube"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="user-info__buttons">
+                    <a href="/assets/docs/DiegoBautista_CV.pdf" class="user-info__btn" target="_blank" rel="noopener noreferrer">
+                        Descargar CV
+                    </a>
+                </div>
+
+          <footer class="user-info__footer">
+            &copy; 2025 Diego Bautista WEB
+          </footer>
+        </section>
+      </aside>
+
+      <div class="layout__menu-toggle">
+            <i class="menu-toggle__icons fa-solid fa-bars"></i>
+            <i class="menu-toggle__icons fa-solid fa-xmark"></i>
+        </div>
+        
+      <main class="layout__content">
+        <section class="content__page content__resume">
+          <header class="resume__header">
+            <h1 class="resume__title">Curriculum</h1>
+          </header>
+
+          <div class="resume__container">
+            <section class="resume__left">
+              <header class="resume__subheader">
+                <h2 class="resume__subtitle">Formación</h2>
+              </header>
+              <div class="resume__timelines">
+                <article class="timelines__timeline">
+                  <header class="timeline__header">
+                    <h4 class="timeline__year">2021 - 2025</h4>
+                    <span class="timeline__company">Universidad Tecnológica del Perú</span>
+                  </header>
+                  <div class="timeline__divider"></div>
+                  <div class="timeline__description">
+                    <h3 class="timeline__title">Ingeniería de Sistemas e Informática</h3>
+                    <p class="timeline__text">
+                      Actualmente en décimo ciclo, con formación en programación, estructuras de datos, sistemas operativos y metodologías de desarrollo académico.                    
+                    </p>
+                  </div>
+                </article>
+              </div>
+
+              <header class="resume__subheader">
+                <h2 class="resume__subtitle">Experiencia</h2>
+              </header>
+              <div class="resume__timelines">
+                <article class="timelines__timeline">
+                  <header class="timeline__header">
+                    <h4 class="timeline__year">Feb – Jul 2025</h4>
+                    <span class="timeline__company">Digital Solutions</span>
+                  </header>
+                  <div class="timeline__divider"></div>
+                  <div class="timeline__description">
+                    <h3 class="timeline__title">Programador Java</h3>
+                    <p class="timeline__text">
+                      Programador Java en proyectos de microservicios, automatizando procesos y mejorando interfaces con Angular.
+                    </p>
+                  </div>
+                </article>
+                <article class="timelines__timeline">
+                  <header class="timeline__header">
+                    <h4 class="timeline__year">Jun – Sep 2024</h4>
+                    <span class="timeline__company">Neonhouseled SAC</span>
+                  </header>
+                  <div class="timeline__divider"></div>
+                  <div class="timeline__description">
+                    <h3 class="timeline__title">Practicante de Desarrollo Web</h3>
+                    <p class="timeline__text">
+                      Practicante de Desarrollo Web, implementando funcionalidades clave, resolviendo incidencias y optimizando la gestión de asistencia.
+                    </p>
+                  </div>
+                </article>
+              </div>
+            </section>
+
+            <section class="resume__right">
+
+              <header class="resume__subheader">
+                <h2 class="resume__subtitle">Habilidades de <span class="subtitle__color">código</span></h2>
+              </header>
+              <div class="resume__skills">
+                <article class="skills_title">
+                  <h4 class="skills__text">Java</h4>
+                  <span class="skills__number">50%</span>
+                </article>
+
+                <div class="skills__progressbar">
+                  <div class="skills_percentage  skills_percentage--p1"></div>
+                </div>
+                <article class="skills_title">
+                  <h4 class="skills__text">Spring</h4>
+                  <span class="skills__number">45%</span>
+                </article>
+
+                <div class="skills__progressbar">
+                  <div class="skills_percentage  skills_percentage--p2"></div>
+                </div>
+                <article class="skills_title">
+                  <h4 class="skills__text">JavaScript</h4>
+                  <span class="skills__number">40%</span>
+                </article>
+
+                <div class="skills__progressbar">
+                  <div class="skills_percentage  skills_percentage--p3"></div>
+                </div>
+                <article class="skills_title">
+                  <h4 class="skills__text">Python</h4>
+                  <span class="skills__number">30%</span>
+                </article>
+
+                <div class="skills__progressbar">
+                  <div class="skills_percentage  skills_percentage--p4"></div>
+                </div>
+                <!-- <article class="skills_title">
+                  <h4 class="skills__text">PHP</h4>
+                  <span class="skills__number">25%</span>
+                </article>
+
+                <div class="skills__progressbar">
+                  <div class="skills_percentage  skills_percentage--p5"></div>
+                </div> -->
+                <article class="skills_title">
+                  <h4 class="skills__text">Angular</h4>
+                  <span class="skills__number">20%</span>
+                </article>
+
+                <div class="skills__progressbar">
+                  <div class="skills_percentage  skills_percentage--p6"></div>
+                </div>
+              </div>
+
+              
+              <header class="resume__subheader">
+                <h2 class="resume__subtitle">Otras <span class="subtitle__color">Habilidades</span></h2>
+              </header>
+              <div class="resume__skills">
+                <article class="skills_title">
+                  <h4 class="skills__text">Microsoft Excel</h4>
+                  <span class="skills__number">50%</span>
+                </article>
+
+                <div class="skills__progressbar">
+                  <div class="skills_percentage skills_percentage--p7"></div>
+                </div>
+                <article class="skills_title">
+                  <h4 class="skills__text">Git</h4>
+                  <span class="skills__number">35%</span>
+                </article>
+
+                <div class="skills__progressbar">
+                  <div class="skills_percentage skills_percentage--p8"></div>
+                </div>
+                <article class="skills_title">
+                  <h4 class="skills__text">SQL</h4>
+                  <span class="skills__number">50%</span>
+                </article>
+
+                <div class="skills__progressbar">
+                  <div class="skills_percentage skills_percentage--p9"></div>
+                </div>
+                <article class="skills_title">
+                  <h4 class="skills__text">AWS</h4>
+                  <span class="skills__number">20%</span>
+                </article>
+
+                <div class="skills__progressbar">
+                  <div class="skills_percentage skills_percentage--p10"></div>
+                </div>
+              </div>
+
+              <header class="resume__subheader">
+                <h2 class="resume__subtitle">Áreas de conocimiento</h2>
+              </header>
+
+              <div class="resume__knowledges">
+                <ul class="knowledges__list">
+                    <li class="knowledges__option">Programación</li>
+                    <li class="knowledges__option">Desarrollo web</li>
+                    <li class="knowledges__option">Bases de datos</li>
+                    <li class="knowledges__option">Frameworks</li>
+                </ul>
+              </div>
+
+            </section>
+          </div>
+
+          <div class="resume__certificates">
+            <header class="resume__subheader">
+                <h2 class="resume__subtitle">Certificados</h2>
+              </header>
+              <section class="certificates__container">
+                    <article data-category="sql2__uni" data-url="assets\docs\SQL2-Certificado.pdf" class="certificates__certificate">
+                        <div class="certificate__logo">
+                            <img src="assets/img/certificado-1.png" class="certificates__image" alt="imagen certificado">
+                        </div>
+
+                        <div class="certificate__content">
+                            <h4 class="certificate__title">SQL Server - Base de datos</h4>
+                            <span class="certificate__id">Id Verificación: 016-0006395</span>   
+                            <span class="certificate__date">14 Junio 2024</span>
+                        </div>
+                    </article>
+                    <article data-category="python__udemy" data-url="assets\docs\python_udemy.pdf" class="certificates__certificate">
+                        <div class="certificate__logo">
+                            <img src="assets/img/certificado-1.png" class="certificates__image" alt="imagen certificado">
+                        </div>
+
+                        <div class="certificate__content">
+                            <h4 class="certificate__title">Máster completo en Python</h4>
+                            <span class="certificate__id">Id Verificación: 98dfe333021a</span>   
+                            <span class="certificate__date">07 Octubre 2025</span>
+                        </div>
+                    </article>
+              </section>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

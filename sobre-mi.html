@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    
+    <!-- Estilos -->
+    <link rel="stylesheet" href="assets/fonts/poppins/poppins.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/scroll.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <script src="assets/js/menu.js" defer></script>
+
+    <title>Portafolio - Diego Bautista</title>
+</head>
+
+<body>
+    <!--Layout principal-->
+    <div class="layout">
+        <!--Barra lateral-->
+        <aside class="layout__aside">
+
+            <section class="aside__user-info">
+                <!-- Información general del usuario -->
+                <div class="user-info__general">
+                    <div class="user-info__container-imagen">
+                        <img src="assets/img/perfil_user.avif" class="user-info__image" alt="Foto de perfil">
+                    </div>
+
+                    <h2 class="user-info__name">Diego Bautista</h2>
+                    <h4 class="user-info__job">Desarrollador Web</h4>
+                </div>
+
+                <!-- Menú de navegación -->
+                <nav class="layout__menu">
+                    <ul class="menu__list">
+
+                        <li class="menu__option">
+                            <a href="index.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-house"></i>
+                                <span class="menu__overlay">Home</span>
+                            </a>
+                        </li>
+                        <li class="menu__option">
+                            <a href="sobre-mi.html" class="menu__link menu__link--active">
+                                <i class="menu__icon fa-solid fa-user"></i>
+                                <span class="menu__overlay">Sobre mi</span>
+                            </a>
+                        </li>
+                        <li class="menu__option">
+                            <a href="portafolio.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-briefcase"></i>
+                                <span class="menu__overlay">Portafolio</span>
+                            </a>
+                        </li>
+                        <li class="menu__option">
+                            <a href="curriculum.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-graduation-cap"></i>
+                                <span class="menu__overlay">Curriculum</span>
+                            </a>
+                        </li>
+                        
+                        <!-- <li class="menu__option">
+                            <a href="blog.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-book"></i>
+                                <span class="menu__overlay">Blog</span>
+                            </a>
+                        </li> -->
+                        <li class="menu__option">
+                            <a href="contacto.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-envelope"></i>
+                                <span class="menu__overlay">Contacto</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="user-info__links">
+                    <ul class="links__social">
+                        <li class="social__option">
+                            <a href="https://github.com/DiegoBauti" class="social__link" target="_blank" rel="noopener noreferrer">
+                                <i class="social__icon fa-brands fa-github"></i>
+                            </a>
+                        </li>
+                        <li class="social__option">
+                            <a href="https://www.linkedin.com/in/diegobautistal/" class="social__link" target="_blank" rel="noopener noreferrer">
+                                <i class="social__icon fa-brands fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li class="social__option">
+                            <a href="https://www.youtube.com/@DiegoBautistaml" class="social__link" target="_blank" rel="noopener noreferrer">
+                                <i class="social__icon fa-brands fa-youtube"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="user-info__buttons">
+                    <a href="/assets/docs/DiegoBautista_CV.pdf" class="user-info__btn" target="_blank" rel="noopener noreferrer">
+                        Descargar CV
+                    </a>
+                </div>
+
+                <footer class="user-info__footer">
+                    &copy; 2025 Diego Bautista WEB
+                </footer>
+            </section>
+        </aside>
+
+        <div class="layout__menu-toggle">
+            <i class="menu-toggle__icons fa-solid fa-bars"></i>
+            <i class="menu-toggle__icons fa-solid fa-xmark"></i>
+        </div>
+
+        <main class="layout__content">
+            <section class="content__page content__about">
+                <header class="about__header">
+                    <h1 class="about__title"> Sobre <span class="title__color">Mi</span> </h1>
+                </header>
+                
+                <section class="about__personal-info">
+                    <article class="personal-info__bio">
+                        <p class="personal-info__description">
+                            Hola, soy Diego Bautista, estudiante de Ingeniería de Sistemas e Informática. Me apasiona el desarrollo de software y la tecnología para resolver problemas reales. He trabajado con Java, Spring Boot, Angular, PHP y MySQL, participando en proyectos académicos y profesionales. Busco seguir creciendo profesionalmente, aportando soluciones innovadoras y eficientes que generen un impacto positivo.</p>
+                    </article>
+                    
+                    <div class="personal-info__data">
+                        <ul class="personal-info__list">
+                            <li class="personal-info-option">
+                                <span class="personal-info__title">Edad</span>
+                                <span class="personal-info__value">22 años</span>
+                            </li>
+                            <li class="personal-info-option">
+                                <span class="personal-info__title">País</span>
+                                <span class="personal-info__value">Perú</span>
+                            </li>
+                            <li class="personal-info-option">
+                                <span class="personal-info__title">Dirección</span>
+                                <span class="personal-info__value">Lima, Ancón</span>
+                            </li>
+                            <li class="personal-info-option">
+                                <span class="personal-info__title">Correo</span>
+                                <span class="personal-info__value">bautista.diegomlp@gmail.com</span>
+                            </li>
+                            <li class="personal-info-option">
+                                <span class="personal-info__title">Teléfono</span>
+                                <span class="personal-info__value">(+51) 954368018</span>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                
+                <section class="about__services">
+                    <header class="services__header">
+                        <h2 class="services__title">
+                            Lo que <span class="title__color">hago</span>
+                        </h2>
+                    </header>
+
+                    <div class="services__container">
+                        <article class="services__service">
+                            <div class="service__icon">
+                                <i class="service__real-icon fa-solid fa-code"></i>
+                                <div class="service__content">
+                                    <h3 class="service__title">Programación</h4>
+                                    <p class="service__description">
+                                      Desarrollo software en Java, JavaScript y PHP aplicando buenas prácticas, patrones de diseño y optimización de código.
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="services__service">
+                            <div class="service__icon">
+                                <i class="service__real-icon fa-solid fa-solid fa-screwdriver-wrench"></i>
+                                <div class="service__content">
+                                    <h3 class="service__title">Soporte y mantenimiento web</h4>
+                                    <p class="service__description">
+                                       Mantengo sitios seguros y disponibles mediante resolución de errores, actualizaciones y monitoreo de servidores.
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="services__service">
+                            <div class="service__icon">
+                                <i class="service__real-icon fa-solid fa-computer"></i>
+                                <div class="service__content">
+                                    <h3 class="service__title">Desarrollo web</h4>
+                                    <p class="service__description">
+                                        Construyo interfaces responsivas e interactivas con HTML, CSS, JavaScript y Angular, integrando APIs y frameworks modernos.
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="services__service">
+                            <div class="service__icon">
+                                <i class="service__real-icon fa-solid fa-globe"></i>
+                                <div class="service__content">
+                                    <h3 class="service__title">Despliegue y hosting web</h4>
+                                    <p class="service__description">
+                                      Gestiono despliegue en servidores seguros y escalables como AWS, Heroku o Vercel, asegurando rendimiento, monitoreo y disponibilidad 24/7.
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+<!-- 
+                <section class="about__reviews">
+                    <header class="reviews__header">
+                        <h2 class="reviews__title">
+                            Reseñas
+                        </h2>
+                    </header>
+
+                    <div class="reviews__container">
+                        <article class="reviews_review">
+                            <div class="review__image-container">
+                                <img src="assets/img/testimonio1.jpg" class="review__image" alt="cara de un cliente">
+                            </div>
+                            <div class="review__description">
+                                <p class="review__text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam cupiditate quidem laudantium repellat. Id totam repellendus obcaecati nisi natus ab beatae eligendi facere, tempora quis officiis rerum cum distinctio illum.
+                                </p>
+                            </div>
+                            <div class="review__autor">
+                                <div class="review__autor-info">
+                                    <h4 class="review__name">Ana López</h4>
+                                    <h5 class="reviews__company">Developers S.A</h5>
+                                </div>
+                                <div class="review__author-icon">
+                                    <i class="review__icon fa-solid fa-quote-right"></i>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="reviews_review">
+                            <div class="review__image-container">
+                                <img src="assets/img/testimonio2.jpg" class="review__image" alt="cara de un cliente">
+                            </div>
+                            <div class="review__description">
+                                <p class="review__text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam cupiditate quidem laudantium repellat. Id totam repellendus obcaecati nisi natus ab beatae eligendi facere, tempora quis officiis rerum cum distinctio illum.
+                                </p>
+                            </div>
+                            <div class="review__autor">
+                                <div class="review__autor-info">
+                                    <h4 class="review__name">Ruben Martinez</h4>
+                                    <h5 class="reviews__company">Indra S.A</h5>
+                                </div>
+                                <div class="review__author-icon">
+                                    <i class="review__icon fa-solid fa-quote-right"></i>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </section> -->
+
+                <!-- <section class="about__clients">
+                    <header class="clients__header">
+                        <h2 class="clients__title">Clientes</h2>
+                    </header>
+                    <div class="clients__container">
+                        <article class="clients__item">
+                            <a href="#" class="clients__link">
+                                <img src="assets/img/cliente-1.png" class="clients__img" alt="logo cliente">
+                            </a>
+                        </article>
+                        <article class="clients__item">
+                            <a href="#" class="clients__link">
+                                <img src="assets/img/cliente-2.png" class="clients__img" alt="logo cliente">
+                            </a>
+                        </article>
+                        <article class="clients__item">
+                            <a href="#" class="clients__link">
+                                <img src="assets/img/cliente-3.png" class="clients__img" alt="logo cliente">
+                            </a>
+                        </article>
+                        <article class="clients__item">
+                            <a href="#" class="clients__link">
+                                <img src="assets/img/cliente-4.png" class="clients__img" alt="logo cliente">
+                            </a>
+                        </article>
+                        <article class="clients__item">
+                            <a href="#" class="clients__link">
+                                <img src="assets/img/cliente-5.png" class="clients__img" alt="logo cliente">
+                            </a>
+                        </article>
+                    </div>
+                </section> -->
+
+                <!-- <section class="about__prices">
+                    <header class="prices__header">
+                        <h2 class="prices__title">Precios</h2>
+                    </header>
+
+                    <div class="prices__container">
+                        <article class="prices__box">
+                            <div class="price__subtitle">
+                                <span class="prices__text">Normal</span>
+                            </div>
+                            <div class="prices__price">
+                                <span class="prices__number">S/20</span>
+                                <small class="prices__advice">Al mes</small>
+                            </div>
+                            <div class="prices__buy">
+                                <a href="#" class="prices__btn">
+                                    Prueba Gratis
+                                </a>
+                            </div>
+                            <div class="prices__reward">
+                                Un curso de desarrollo web
+                            </div>
+                            <div class="prices__reward">
+                                Soporte a preguntas y dudas
+                            </div>
+                            <div class="prices__reward">
+                                Certificado de finalización
+                            </div>
+                        </article>
+                        <article class="prices__box">
+                            <div class="price__subtitle">
+                                <span class="prices__text">Premium</span>
+                            </div>
+                            <div class="prices__price">
+                                <span class="prices__number">S/50</span>
+                                <small class="prices__advice">Al mes</small>
+                            </div>
+                            <div class="prices__buy">
+                                <a href="#" class="prices__btn">
+                                    Prueba Gratis
+                                </a>
+                            </div>
+                            <div class="prices__reward">
+                                Cinco cursos de desarrollo web
+                            </div>
+                            <div class="prices__reward">
+                                Soporte a preguntas y dudas prioritario
+                            </div>
+                            <div class="prices__reward">
+                                Certificado de finalización
+                            </div>
+                        </article>
+                    </div>
+                </section> -->
+
+                <!-- <div class="about__extra">
+                    <header class="extra__header">
+                        <h2 class="extra__title">Información <span class="title__color">Extra</span></h2>
+                    </header>
+                    <div class="extra__container">
+                        <article class="extra__info">
+                            <i class="extra__icon fa-solid fa-heart"></i>
+                            <h4 class="extra__subtitle">Alumnos contentos</h4>
+                            <span class="extra__quantity">375.000</span>
+                        </article>
+                        <article class="extra__info">
+                            <i class="extra__icon fa-solid fa-clock"></i>
+                            <h4 class="extra__subtitle">Horas de contenido</h4>
+                            <span class="extra__quantity">800</span>
+                        </article>
+                        <article class="extra__info">
+                            <i class="extra__icon fa-solid fa-star"></i>
+                            <h4 class="extra__subtitle">Puntuación</h4>
+                            <span class="extra__quantity">10</span>
+                        </article>
+                    </div>
+                </div> -->
+            </section>
+        </main>
+    </div>
+</body>
+</html>
