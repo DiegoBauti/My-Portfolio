@@ -12,6 +12,9 @@
     --color-background-certificate:#F5F5F5;
     --color-background-contact:#FCFCFC;
     --color-transparent: transparent;
+    --color-begginer:#b6b613;
+    --color-intermediate:#0f8a16;
+    --color-advanced:#1367a8;
 }
 
 /* ESTILOS GENERALES*/
@@ -934,6 +937,7 @@ body{
 }
 
 .gallery__image{
+    height: 16rem;
     transition: all 300ms ease-in-out;
 }
 
@@ -972,6 +976,16 @@ body{
     background-color: var(--color-principal);
     color: var(--color-text);
     transition: all 400ms ease-in-out;
+}
+
+.gallery__category--beginner{
+    color: var(--color-begginer);
+}
+.gallery__category--intermediate{
+    color: var(--color-intermediate);
+}
+.gallery__category--advanced{
+    color: var(--color-advanced);
 }
 
 .gallery__item:hover .gallery__icon,
