@@ -274,4 +274,8 @@
     .form__input--textarea{
         height: 12rem;
     }
+    .gallery__container-image {
+        width: 28rem;
+        height: 16rem;
+    }
 }
